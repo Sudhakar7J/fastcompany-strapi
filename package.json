@@ -1,0 +1,35 @@
+{
+  "name": "fastcompany-strapi",
+  "private": true,
+  "version": "0.1.0",
+  "description": "A Strapi application",
+  "scripts": {
+    "develop": "strapi develop",
+    "start": "strapi start",
+    "build": "strapi build",
+    "strapi": "strapi"
+  },
+  "dependencies": {
+    "@strapi/plugin-i18n": "4.11.1",
+    "@strapi/plugin-users-permissions": "4.11.1",
+    "@strapi/provider-upload-cloudinary": "^4.11.1",
+    "@strapi/strapi": "4.11.1",
+    "faker": "^5.5.3",
+    "mysql": "2.18.1",
+    "strapi-plugin-generate-data": "^1.0.23"
+  },
+  "author": {
+    "name": "A Strapi developer"
+  },
+  "strapi": {
+    "uuid": "97224546-da4f-4d7b-8207-4ae9d126f58f"
+  },
+  "engines": {
+    "node": ">=14.19.1 <=18.x.x",
+    "npm": ">=6.0.0"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@faker-js/faker": "^8.0.2"
+  }
+}
