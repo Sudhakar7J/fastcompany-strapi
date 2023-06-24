@@ -16,15 +16,6 @@
     }
   },
   "attributes": {
-    "category": {
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      },
-      "type": "string",
-      "required": true
-    },
     "title": {
       "pluginOptions": {
         "i18n": {
@@ -96,6 +87,12 @@
         }
       },
       "type": "string"
+    },
+    "category": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::category.category",
+      "inversedBy": "news_articles"
     }
   }
 }
