@@ -93,6 +93,14 @@
       "relation": "manyToOne",
       "target": "api::category.category",
       "inversedBy": "news_articles"
+    },
+    "viewcount": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "integer"
     }
   }
 }
