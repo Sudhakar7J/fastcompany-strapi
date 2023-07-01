@@ -13,10 +13,12 @@
     "@strapi/plugin-i18n": "4.11.1",
     "@strapi/plugin-seo": "^1.9.2",
     "@strapi/plugin-users-permissions": "4.11.1",
+    "@strapi/provider-upload-aws-s3": "^4.11.3",
     "@strapi/provider-upload-cloudinary": "^4.11.1",
     "@strapi/strapi": "4.11.1",
     "faker": "^5.5.3",
     "mysql": "2.18.1",
+    "pg": "^8.11.1",
     "strapi-plugin-generate-data": "^1.0.23"
   },
   "author": {
